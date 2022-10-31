@@ -27,7 +27,9 @@ Tras la eliminación de las columnas mencionadas anteriormente, he procedido a l
 Principalmente este proceso de limpieza ha consistido en:
 
 3.1 Sustitución de valores nulos.
+
 3.2 Minimización del número de valores nulos.
+
 3.3 Creación de funciones para la unificación de los valores.
 
 Una vez obtenido un DataSet nuevo y limpio, llevo a cabo un proceso de visualización para poder demostrar mi hipótesis a través de la creación de tablas.

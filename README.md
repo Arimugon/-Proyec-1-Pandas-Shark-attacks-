@@ -7,14 +7,14 @@ Este proyecto consiste en la valoración y limpieza de una DataSet que facilita 
 Lo primero que hay que realizar es la limpieza de los datos que tengo, para ello voy a utilizar Jupyter Notebook. Mi proceso de limpieza ha sido el siguiente:
 
   **-1.Lectura e info del DataSet:**
-Valoro la informacion aportada,el número de valores nulos, la repercusion o importancia que tienen las diferentes columnas tanto para mi hipótesis como para la     integridad del DataSet. 
+Valoro la información aportada,el número de valores nulos, la repercusión o importancia que tienen las diferentes columnas tanto para mi hipótesis como para la     integridad del DataSet. 
 Planteamiento de mi hipótesis:
 
 -El país en el que más ataques de tiburones se producen en en EEUU, concretamente en el area de Florida.
 
 -Que se producen más ataques a hombres que a mujeres.
 
--Que el tiburon que más ataques a humanos produce es el White Shark.
+-Que el tiburón que más ataques a humanos produce es el White Shark.
 
   **-2.Eliminación de tablas y duplicados:**
 Eliminación de tablas con casi el 100% de nulos 'unnamed_22' y 'unnamed_23'
@@ -28,7 +28,7 @@ Principalmente este proceso de limpieza ha consistido en:
 
 3.1 Sustitución de valores nulos.
 
-3.2 Minimización del número de valores nulos.
+3.2 Minimización del número de valores únicos.
 
 3.3 Creación de funciones para la unificación de los valores.
 
@@ -37,7 +37,7 @@ Una vez obtenido un DataSet nuevo y limpio, llevo a cabo un proceso de visualiza
 
 **HIPÓTESIS:**
 
--El país en el que más ataques de tiburones se producen en en EEUU, concretamente en el area de Florida.
+-El país en el que más ataques de tiburones se producen en en EEUU, concretamente en el área de Florida.
 
 Elaboro un gráfico con la columna country para que me muestre el país del mundo en el que más ataques de tiburones se producen, y luego realizo otro gráfico solo teniendo en cuanta los valores de USA para limitar el area al de USA.
 
@@ -47,11 +47,11 @@ Elaboro un gráfico con la columna country para que me muestre el país del mund
 
 -Que se producen más ataques a hombres que a mujeres.
 
-Realizo dos gráficos, uno que engloban los ataques de tiburon según el genero al que ataca y otra en el que lo relaciono solo en los atauqes producidos en USA. Ambas coinciden en que se produce un mayor número de ataques a hombres que a mujeres.
+Realizo dos gráficos, uno que engloban los ataques de tiburón según el genero al que ataca y otra en el que lo relaciono solo en los atauqes producidos en USA. Ambas coinciden en que se produce un mayor número de ataques a hombres que a mujeres.
 
 ![ataques a genero](https://user-images.githubusercontent.com/113017465/198994264-f68339b1-0d46-4018-ad3c-cb2c3be05406.png)
 
--Que el tiburon que más ataques a humanos produce es el White Shark.
+-Que el tiburón que más ataques a humanos produce es el White Shark.
 
 En este caso he tenido que omitir un valor único 'others', y luego crear un gráfico que represente qué especie de tiburón es el que produce más ataques.
 
